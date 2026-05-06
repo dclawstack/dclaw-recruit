@@ -1,0 +1,30 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/dclawstack/dclaw-recruit
+  tag: ""
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8128
+
+ingress:
+  enabled: true
+  host: recruit.dclawstack.io
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+postgresql:
+  enabled: true
+  storage: 10Gi
+
+serviceAccount:
+  create: true
+  name: ""
