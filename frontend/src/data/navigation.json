@@ -1,0 +1,12 @@
+{
+  "main": [
+    { "text": "Features", "href": "#features" },
+    { "text": "How It Works", "href": "#how-it-works" },
+    { "text": "Pricing", "href": "#pricing" },
+    { "text": "Testimonials", "href": "#testimonials" }
+  ],
+  "auth": [
+    { "text": "Sign In", "href": "/login", "variant": "ghost" },
+    { "text": "Get Started", "href": "/signup", "variant": "default" }
+  ]
+}

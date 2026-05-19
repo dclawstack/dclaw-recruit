@@ -9,6 +9,7 @@ from alembic import context
 
 from app.core.config import settings
 from app.models.base import Base
+from app.models import JobRequisition, Candidate, Interview  # noqa: F401 — register models
 
 # this is the Alembic Config object
 config = context.config

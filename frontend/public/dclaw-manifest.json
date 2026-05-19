@@ -1,0 +1,33 @@
+{
+  "app_id": "recruit",
+  "name": "DClaw Recruit",
+  "category": "Talent",
+  "tagline": "AI-Powered Talent Acquisition & Applicant Tracking",
+  "description": "Streamline your entire hiring pipeline — from job posting to offer acceptance — with AI-driven sourcing, resume screening, interview scheduling, and predictive analytics.",
+  "color": "#EC4899",
+  "phase": "Active",
+  "maturity_tier": "Tier 2 — Partial",
+  "ports": {
+    "frontend_dev": 3095,
+    "backend_dev": 18165
+  },
+  "features": [
+    "AI Recruit Copilot",
+    "Applicant Tracking System",
+    "Smart Interview Scheduling",
+    "Offer Management & E-Sign",
+    "AI Sourcing Engine",
+    "Recruitment Analytics"
+  ],
+  "tech_stack": {
+    "frontend": "Next.js 14+",
+    "backend": "FastAPI",
+    "database": "PostgreSQL 16",
+    "ai": "LLM (OpenRouter + Ollama)"
+  },
+  "repository": "https://github.com/dclawstack/dclaw-recruit",
+  "docs_url": "/docs",
+  "status": "active",
+  "created_at": "2026-05-16",
+  "updated_at": "2026-05-19"
+}

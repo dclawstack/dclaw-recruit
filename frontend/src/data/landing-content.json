@@ -1,0 +1,250 @@
+{
+  "app": {
+    "name": "DClaw Recruit",
+    "tagline": "AI-Powered Talent Acquisition & Applicant Tracking",
+    "description": "Streamline your entire hiring pipeline — from job posting to offer acceptance — with AI-driven sourcing, resume screening, interview scheduling, and predictive analytics.",
+    "color": "#EC4899",
+    "category": "Talent"
+  },
+  "hero": {
+    "headline": "Hire Smarter, Faster with AI-Powered Recruiting",
+    "subheadline": "DClaw Recruit combines an applicant tracking system with AI copilots that source candidates, screen resumes, schedule interviews, and predict hiring outcomes — all in one platform.",
+    "ctaPrimary": {
+      "text": "Get Started Free",
+      "href": "/signup"
+    },
+    "ctaSecondary": {
+      "text": "Watch Demo",
+      "href": "/demo"
+    },
+    "stats": [
+      { "value": "40%", "label": "Faster Time-to-Hire" },
+      { "value": "3x", "label": "More Qualified Candidates" },
+      { "value": "85%", "label": "Interview Acceptance Rate" }
+    ]
+  },
+  "features": {
+    "heading": "Everything You Need to Build World-Class Teams",
+    "subheading": "DClaw Recruit's AI copilot automates the tedious parts of recruiting so you can focus on what matters — connecting with great candidates.",
+    "items": [
+      {
+        "id": "ai-copilot",
+        "icon": "Bot",
+        "title": "AI Recruit Copilot",
+        "description": "Your intelligent recruiting assistant that writes job descriptions, screens resumes, ranks candidates, and schedules interviews — all with natural language commands.",
+        "badge": "Core AI",
+        "benefits": [
+          "Generate optimized job descriptions in under 2 minutes",
+          "Rank 100+ resumes by relevance to job requirements",
+          "Auto-schedule interviews considering all participants' availability"
+        ]
+      },
+      {
+        "id": "applicant-tracking",
+        "icon": "KanbanSquare",
+        "title": "Applicant Tracking System",
+        "description": "Visual pipeline management from source to hire. Track every candidate's journey with AI-powered scoring and velocity predictions.",
+        "badge": "Foundation",
+        "benefits": [
+          "Kanban-style pipeline with drag-and-drop stage management",
+          "AI candidate scoring based on job fit and experience",
+          "Predictive time-to-hire estimates for every open role"
+        ]
+      },
+      {
+        "id": "interview-scheduling",
+        "icon": "CalendarCheck",
+        "title": "Smart Interview Scheduling",
+        "description": "Auto-schedule interviews considering timezone, availability, and preferences. Built-in reminders and conflict resolution.",
+        "badge": "Automation",
+        "benefits": [
+          "Self-scheduling links for candidates",
+          "Multi-interviewer coordination with timezone awareness",
+          "Automated reminder sequences via email and SMS"
+        ]
+      },
+      {
+        "id": "offer-management",
+        "icon": "FileCheck",
+        "title": "Offer Management & E-Sign",
+        "description": "Generate professional offer letters, manage approvals, track acceptance, and handle negotiations — all with AI-powered insights.",
+        "badge": "Closing",
+        "benefits": [
+          "AI-generated offer letters with market comparison",
+          "Approval workflow automation",
+          "Acceptance prediction and negotiation guidance"
+        ]
+      },
+      {
+        "id": "sourcing",
+        "icon": "Search",
+        "title": "AI Sourcing Engine",
+        "description": "Find passive candidates across LinkedIn, GitHub, and job boards. AI generates personalized outreach messages for higher response rates.",
+        "badge": "Growth",
+        "benefits": [
+          "Discover 50+ passive candidates per role",
+          "AI-generated personalized InMail and emails",
+          "Source effectiveness tracking and optimization"
+        ]
+      },
+      {
+        "id": "analytics",
+        "icon": "BarChart3",
+        "title": "Recruitment Analytics",
+        "description": "Comprehensive dashboards tracking 15+ metrics including time-to-fill, cost-per-hire, source effectiveness, and quality-of-hire predictions.",
+        "badge": "Insights",
+        "benefits": [
+          "Real-time pipeline and funnel analytics",
+          "AI-powered quality-of-hire prediction",
+          "Diversity and inclusion metric tracking"
+        ]
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How DClaw Recruit Works",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Post a Job",
+        "description": "Use the AI copilot to generate an optimized job description, or write your own. Publish to your career page and syndicate to job boards."
+      },
+      {
+        "number": 2,
+        "title": "Source & Screen",
+        "description": "AI finds passive candidates and screens incoming resumes, ranking them by match score and flagging top prospects automatically."
+      },
+      {
+        "number": 3,
+        "title": "Interview & Evaluate",
+        "description": "Schedule interviews with one click. Use structured scorecards with AI-generated rubrics to evaluate candidates consistently."
+      },
+      {
+        "number": 4,
+        "title": "Extend Offers & Hire",
+        "description": "Generate offer letters, route for approval, collect e-signatures, and trigger onboarding — all from one platform."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Trusted by Hiring Teams",
+    "items": [
+      {
+        "quote": "DClaw Recruit's AI copilot saved us 15 hours per week on resume screening. We're hiring faster and with better outcomes.",
+        "author": "Sarah Chen",
+        "role": "Head of Talent, TechScale Inc.",
+        "avatar": "/avatars/sarah.jpg"
+      },
+      {
+        "quote": "The interview scheduling alone is worth it. Coordinating 5 interviewers across 3 timezones used to take days. Now it takes minutes.",
+        "author": "Marcus Johnson",
+        "role": "VP Engineering, DataFlow",
+        "avatar": "/avatars/marcus.jpg"
+      },
+      {
+        "quote": "We reduced our time-to-hire by 40% in the first quarter. The predictive analytics helped us optimize our entire funnel.",
+        "author": "Priya Patel",
+        "role": "HR Director, CloudBase",
+        "avatar": "/avatars/priya.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Simple, Transparent Pricing",
+    "subheading": "Start free, scale as you grow. All plans include the AI copilot.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$0",
+        "period": "/month",
+        "description": "For small teams getting started with structured hiring.",
+        "features": [
+          "Up to 3 active job postings",
+          "AI resume screening (50/month)",
+          "Basic pipeline management",
+          "Email support"
+        ],
+        "cta": "Start Free",
+        "href": "/signup?plan=starter",
+        "highlighted": false
+      },
+      {
+        "name": "Professional",
+        "price": "$49",
+        "period": "/seat/month",
+        "description": "For growing teams that need full AI-powered recruiting.",
+        "features": [
+          "Unlimited job postings",
+          "Unlimited AI resume screening",
+          "AI sourcing & outreach",
+          "Smart interview scheduling",
+          "Offer management & e-sign",
+          "Advanced analytics",
+          "Priority support"
+        ],
+        "cta": "Start Trial",
+        "href": "/signup?plan=pro",
+        "highlighted": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "description": "For large organizations with advanced compliance and integration needs.",
+        "features": [
+          "Everything in Professional",
+          "SSO & advanced permissions",
+          "Custom AI model training",
+          "Dedicated account manager",
+          "SLA guarantee",
+          "API access",
+          "Custom integrations"
+        ],
+        "cta": "Contact Sales",
+        "href": "/contact",
+        "highlighted": false
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to Transform Your Hiring?",
+    "subheading": "Join hundreds of companies using DClaw Recruit to hire smarter, faster, and more equitably.",
+    "button": {
+      "text": "Get Started Free",
+      "href": "/signup"
+    },
+    "secondaryText": "No credit card required. 14-day free trial on all plans."
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          { "text": "Features", "href": "/features" },
+          { "text": "Pricing", "href": "/pricing" },
+          { "text": "Integrations", "href": "/integrations" },
+          { "text": "Changelog", "href": "/changelog" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "text": "Documentation", "href": "/docs" },
+          { "text": "API Reference", "href": "/api" },
+          { "text": "Blog", "href": "/blog" },
+          { "text": "Hiring Guides", "href": "/guides" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "text": "About", "href": "/about" },
+          { "text": "Careers", "href": "/careers" },
+          { "text": "Contact", "href": "/contact" },
+          { "text": "Privacy", "href": "/privacy" }
+        ]
+      }
+    ],
+    "bottomText": "© 2026 DClaw Recruit. All rights reserved."
+  }
+}
