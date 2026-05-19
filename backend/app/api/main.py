@@ -34,3 +34,6 @@ app.include_router(recruit_v1.router, prefix="/api/v1", tags=["recruit"])
 
 from app.api.v1 import ai as ai_v1
 app.include_router(ai_v1.router, prefix="/api/v1", tags=["ai"])
+
+from app.api.v1 import ai_v2 as ai_v2
+app.include_router(ai_v2.router, prefix="/api/v1", tags=["ai-v2"])

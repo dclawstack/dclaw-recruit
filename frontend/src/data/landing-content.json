@@ -1,14 +1,14 @@
 {
   "app": {
     "name": "DClaw Recruit",
-    "tagline": "AI-Powered Talent Acquisition & Applicant Tracking",
-    "description": "Streamline your entire hiring pipeline — from job posting to offer acceptance — with AI-driven sourcing, resume screening, interview scheduling, and predictive analytics.",
+    "tagline": "Next-Gen AI Recruiting — Skills-Based, Internal-First, Candidate-Centric",
+    "description": "Move beyond traditional ATS. DClaw Recruit uses AI screening interviews, skills-based hiring, internal mobility matching, and a transparent candidate experience hub — built for how hiring works in 2026.",
     "color": "#EC4899",
     "category": "Talent"
   },
   "hero": {
-    "headline": "Hire Smarter, Faster with AI-Powered Recruiting",
-    "subheadline": "DClaw Recruit combines an applicant tracking system with AI copilots that source candidates, screen resumes, schedule interviews, and predict hiring outcomes — all in one platform.",
+    "headline": "Hire for Skills, Not Resumes — The 2026 Recruiting Stack",
+    "subheadline": "DClaw Recruit combines AI-screening interviews, skills-based assessments, internal mobility matching, and a transparent candidate hub. Ditch outdated ATS workflows and hire like the best tech companies.",
     "ctaPrimary": {
       "text": "Get Started Free",
       "href": "/signup"
@@ -18,85 +18,85 @@
       "href": "/demo"
     },
     "stats": [
-      { "value": "40%", "label": "Faster Time-to-Hire" },
-      { "value": "3x", "label": "More Qualified Candidates" },
-      { "value": "85%", "label": "Interview Acceptance Rate" }
+      { "value": "60%", "label": "Faster Time-to-Hire" },
+      { "value": "4.8★", "label": "Candidate Experience" },
+      { "value": "35%", "label": "Internal Hires First" }
     ]
   },
   "features": {
-    "heading": "Everything You Need to Build World-Class Teams",
-    "subheading": "DClaw Recruit's AI copilot automates the tedious parts of recruiting so you can focus on what matters — connecting with great candidates.",
+    "heading": "The 2026 Recruiting Stack — Built for How Hiring Actually Works Now",
+    "subheading": "Traditional ATS features are table stakes. DClaw Recruit layers AI-native capabilities that leading companies (Gem, Ashby, Mercor) are adopting today.",
     "items": [
+      {
+        "id": "ai-screening",
+        "icon": "Mic",
+        "title": "AI Screening Interviews",
+        "description": "AI conducts first-round screening — assessing communication, technical accuracy, and culture fit from voice/video responses. Cuts phone screen time by 80%.",
+        "badge": "New P0",
+        "benefits": [
+          "AI analyzes soft skills and communication quality",
+          "Consistent, unbiased screening for every candidate",
+          "Instant transcripts and sentiment analysis"
+        ]
+      },
+      {
+        "id": "skills-based",
+        "icon": "BadgeCheck",
+        "title": "Skills-Based Hiring Engine",
+        "description": "Infer verified skills from GitHub repos, portfolios, and project descriptions — not just resume keywords. Match candidates based on what they can actually do.",
+        "badge": "New P0",
+        "benefits": [
+          "Skill inference from code, projects, and portfolios",
+          "Proficiency scoring: Beginner → Expert",
+          "Role readiness scores with gap analysis"
+        ]
+      },
+      {
+        "id": "internal-mobility",
+        "icon": "ArrowRightLeft",
+        "title": "Internal Mobility AI",
+        "description": "Before posting externally, AI scans your existing workforce for employees ready to move. Hire from within first — slash external recruiting costs.",
+        "badge": "New P1",
+        "benefits": [
+          "AI matches employees to open roles by skill overlap",
+          "Readiness prediction: Ready Now → 12 months",
+          "Save $20K+ per internal hire vs external"
+        ]
+      },
+      {
+        "id": "candidate-hub",
+        "icon": "MessageCircle",
+        "title": "Candidate Experience Hub",
+        "description": "No more candidate ghosting. Real-time pipeline transparency, AI chatbot for instant answers, self-scheduling, and structured feedback after every round.",
+        "badge": "New P1",
+        "benefits": [
+          "AI chatbot answers candidate questions 24/7",
+          "Transparency score tracks communication quality",
+          "Self-scheduling with instant confirmation"
+        ]
+      },
       {
         "id": "ai-copilot",
         "icon": "Bot",
         "title": "AI Recruit Copilot",
-        "description": "Your intelligent recruiting assistant that writes job descriptions, screens resumes, ranks candidates, and schedules interviews — all with natural language commands.",
+        "description": "Your intelligent recruiting assistant that sources candidates, screens resumes, generates JDs, and predicts hiring outcomes — all with natural language commands.",
         "badge": "Core AI",
         "benefits": [
-          "Generate optimized job descriptions in under 2 minutes",
-          "Rank 100+ resumes by relevance to job requirements",
-          "Auto-schedule interviews considering all participants' availability"
-        ]
-      },
-      {
-        "id": "applicant-tracking",
-        "icon": "KanbanSquare",
-        "title": "Applicant Tracking System",
-        "description": "Visual pipeline management from source to hire. Track every candidate's journey with AI-powered scoring and velocity predictions.",
-        "badge": "Foundation",
-        "benefits": [
-          "Kanban-style pipeline with drag-and-drop stage management",
-          "AI candidate scoring based on job fit and experience",
-          "Predictive time-to-hire estimates for every open role"
-        ]
-      },
-      {
-        "id": "interview-scheduling",
-        "icon": "CalendarCheck",
-        "title": "Smart Interview Scheduling",
-        "description": "Auto-schedule interviews considering timezone, availability, and preferences. Built-in reminders and conflict resolution.",
-        "badge": "Automation",
-        "benefits": [
-          "Self-scheduling links for candidates",
-          "Multi-interviewer coordination with timezone awareness",
-          "Automated reminder sequences via email and SMS"
-        ]
-      },
-      {
-        "id": "offer-management",
-        "icon": "FileCheck",
-        "title": "Offer Management & E-Sign",
-        "description": "Generate professional offer letters, manage approvals, track acceptance, and handle negotiations — all with AI-powered insights.",
-        "badge": "Closing",
-        "benefits": [
-          "AI-generated offer letters with market comparison",
-          "Approval workflow automation",
-          "Acceptance prediction and negotiation guidance"
-        ]
-      },
-      {
-        "id": "sourcing",
-        "icon": "Search",
-        "title": "AI Sourcing Engine",
-        "description": "Find passive candidates across LinkedIn, GitHub, and job boards. AI generates personalized outreach messages for higher response rates.",
-        "badge": "Growth",
-        "benefits": [
-          "Discover 50+ passive candidates per role",
-          "AI-generated personalized InMail and emails",
-          "Source effectiveness tracking and optimization"
+          "Generate optimized JDs in under 2 minutes",
+          "Rank 100+ resumes by relevance and skill fit",
+          "Auto-schedule interviews considering availability"
         ]
       },
       {
         "id": "analytics",
         "icon": "BarChart3",
-        "title": "Recruitment Analytics",
-        "description": "Comprehensive dashboards tracking 15+ metrics including time-to-fill, cost-per-hire, source effectiveness, and quality-of-hire predictions.",
+        "title": "Recruitment Analytics & DEI",
+        "description": "Track 15+ metrics, real-time diversity pipeline analytics, predictive time-to-hire, and source effectiveness. Catch bias before it affects hiring.",
         "badge": "Insights",
         "benefits": [
-          "Real-time pipeline and funnel analytics",
+          "Real-time DEI pipeline monitoring",
           "AI-powered quality-of-hire prediction",
-          "Diversity and inclusion metric tracking"
+          "Bias interception alerts at every stage"
         ]
       }
     ]

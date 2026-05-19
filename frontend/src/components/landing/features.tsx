@@ -9,6 +9,10 @@ import {
   FileCheck,
   Search,
   BarChart3,
+  Mic,
+  BadgeCheck,
+  ArrowRightLeft,
+  MessageCircle,
   type LucideIcon,
 } from "lucide-react";
 
@@ -36,6 +40,10 @@ const iconMap: Record<string, LucideIcon> = {
   FileCheck,
   Search,
   BarChart3,
+  Mic,
+  BadgeCheck,
+  ArrowRightLeft,
+  MessageCircle,
 };
 
 export function Features({ data }: FeaturesProps) {
