@@ -31,3 +31,6 @@ app.include_router(health.router, prefix="/health", tags=["health"])
 
 from app.api.v1 import recruit as recruit_v1
 app.include_router(recruit_v1.router, prefix="/api/v1", tags=["recruit"])
+
+from app.api.v1 import ai as ai_v1
+app.include_router(ai_v1.router, prefix="/api/v1", tags=["ai"])

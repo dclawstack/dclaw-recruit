@@ -27,7 +27,7 @@ async def override_get_db():
 app.dependency_overrides[get_db] = override_get_db
 
 
-@pytest_asyncio.fixture(autouse=True)
+@pytest_asyncio.fixture
 async def setup_db():
     async with test_engine.begin() as conn:
         await conn.run_sync(Base.metadata.drop_all)
@@ -38,6 +38,6 @@ async def setup_db():
 
 
 @pytest_asyncio.fixture
-async def client():
+async def client(setup_db):
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as ac:
         yield ac

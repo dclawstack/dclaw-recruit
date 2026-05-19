@@ -1,7 +1,14 @@
-# DClaw Scaffold
+# DClaw Recruit
 
-> **The single source of truth for new DClaw app development.**
-> Clone this repo, rename it, fill in your `PRODUCT-SPEC.md`, and hand it to your coding agents.
+> AI-Powered Talent Acquisition & Applicant Tracking
+
+## Contributors
+
+| Name | Email | Role |
+|------|-------|------|
+| Ramsai Kamavaram | kamavaram.ramsai@gmail.com | Lead Developer |
+
+---
 
 ## What This Is
 

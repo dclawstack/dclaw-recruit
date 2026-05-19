@@ -7,21 +7,21 @@
 
 ## Pre-Flight Checklist
 
-- [ ] `frontend/package-lock.json` committed after any `npm install` / dependency change
-- [ ] `frontend/next-env.d.ts` exists and is committed
-- [ ] `docker-compose.yml` healthchecks correct
-- [ ] `frontend/Dockerfile` declares `ARG NEXT_PUBLIC_API_URL` before `RUN npm run build`
+- [x] `frontend/package-lock.json` committed after any `npm install` / dependency change
+- [x] `frontend/next-env.d.ts` exists and is committed
+- [x] `docker-compose.yml` healthchecks correct
+- [x] `frontend/Dockerfile` declares `ARG NEXT_PUBLIC_API_URL` before `RUN npm run build`
 
 ## v1.0 Feature Inventory (Current)
 
-- [ ] Job posting CRUD
-- [ ] Candidate pipeline (stages)
-- [ ] Resume parsing & profiles
-- [ ] Interview scheduling
-- [ ] Real backend CRUD (no mocks)
-- [ ] Docker + Helm deployment
-- [ ] Alembic migrations
-- [ ] Backend tests
+- [x] Job posting CRUD
+- [x] Candidate pipeline (stages)
+- [x] Resume parsing & profiles
+- [x] Interview scheduling
+- [x] Real backend CRUD (no mocks)
+- [x] Docker + Helm deployment
+- [x] Alembic migrations
+- [x] Backend tests (19 AI service tests + health endpoint test)
 
 ---
 
@@ -29,31 +29,31 @@
 
 ### P0 — Must Have (Ship in v1.0, demo-ready)
 
-#### 1. AI Recruiting Copilot (Sourcing Agent)
+#### 1. AI Recruiting Copilot (Sourcing Agent) ✅
 **Description:** AI agent that finds candidates across LinkedIn, GitHub, and job boards based on job requirements. Generates personalized outreach messages.
 - **AI Angle:** Profile matching via embeddings. LLM-generated outreach.
-- **Backend:** `/api/v1/ai/source` endpoint. Profile scraping + scoring.
+- **Backend:** `/api/v1/ai/source` endpoint. Profile scraping + scoring. ✅
 - **Frontend:** Sourcing panel with candidate cards and one-click outreach.
-- **Files:** `backend/app/services/sourcing_ai.py`, `frontend/src/app/jobs/[id]/source.tsx`
+- **Files:** `backend/app/services/sourcing_ai.py` ✅, `frontend/src/app/jobs/[id]/source.tsx` (TBD)
 
-#### 2. AI Resume Screening & Ranking
+#### 2. AI Resume Screening & Ranking ✅
 **Description:** Auto-parse resumes and rank candidates against job description. Explain match score.
 - **AI Angle:** Resume parsing (LLM/regex). Semantic JD-candidate matching (embeddings).
-- **Backend:** `/api/v1/ai/screen` endpoint. Bias detection filters.
+- **Backend:** `/api/v1/ai/screen` endpoint. Bias detection filters. ✅
 - **Frontend:** Ranked candidate list with match scores and explanation.
-- **Files:** `backend/app/services/screening.py`
+- **Files:** `backend/app/services/screening.py` ✅, `backend/app/services/resume_parser.py` ✅
 
-#### 3. Interview Scheduling & Coordination
+#### 3. Interview Scheduling & Coordination ✅
 **Description:** Self-scheduling links, calendar sync, reminder sequences, room booking.
-- **Backend:** Calendar API integration. Availability calculation.
+- **Backend:** Calendar API integration. Availability calculation. ✅
 - **Frontend:** Scheduling widget. Interview calendar.
-- **Files:** `backend/app/services/scheduling.py`
+- **Files:** `backend/app/services/scheduling.py` ✅
 
-#### 4. Structured Interview Scorecards
+#### 4. Structured Interview Scorecards ✅
 **Description:** Standardized scorecards with rubrics. Compare candidates side-by-side.
-- **Backend:** Scorecard template engine. Aggregate scoring.
+- **Backend:** Scorecard template engine. Aggregate scoring. ✅
 - **Frontend:** Scorecard form during/after interview. Comparison matrix.
-- **Files:** `backend/app/services/scorecards.py`
+- **Files:** `backend/app/services/scorecards.py` ✅
 
 ### P1 — Should Have (v1.1–1.2)
 
