@@ -4,6 +4,7 @@ import landingData from "@/data/landing-content.json";
 import { Navbar } from "@/components/landing/navbar";
 import { Hero } from "@/components/landing/hero";
 import { Features } from "@/components/landing/features";
+import { DemoSection } from "@/components/landing/demo-section";
 import { HowItWorks } from "@/components/landing/how-it-works";
 import { Testimonials } from "@/components/landing/testimonials";
 import { Pricing } from "@/components/landing/pricing";
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Hero data={landingData.hero} />
         <Features data={landingData.features} />
+        <DemoSection />
         <HowItWorks data={landingData.howItWorks} />
         <Testimonials data={landingData.testimonials} />
         <Pricing data={landingData.pricing} />
